@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0 20px;
+}
+
+.main__content {
+    width: 75%;
+    /* background: green; */
+}
+
+.side__content {
+    width: 23%;
+    /* background: pink; */
+}
+
+@media screen and(max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__content {
+        width: 100%;
+    }
+
+    .side__conten {
+        width: 100%;
+    }
+}

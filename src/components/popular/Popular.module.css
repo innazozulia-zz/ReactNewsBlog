@@ -1,0 +1,36 @@
+.img {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.category span {
+    background: #6a8f3f;
+    padding: 4px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+}
+
+.box {
+    display: flex;
+    position: relative;
+    margin: 15px 15px 15px 0;
+    box-shadow: -2px 6px 5px 0px rgba(0, 0, 0, 0.61);
+    -webkit-box-shadow: -2px 6px 5px 0px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: -2px 6px 5px 0px rgba(0, 0, 0, 0.61);
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.icon {
+    color: #6a8f3f;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}

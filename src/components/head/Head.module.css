@@ -1,0 +1,30 @@
+.section {
+    align-items: center;
+}
+
+.container {
+    max-width: 90%;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 40px 0;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.logo__img {
+    width: 250px;
+    cursor: pointer;
+
+}
+
+.add {
+    width: 300px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .add {
+        display: none;
+    }
+}
