@@ -1,0 +1,36 @@
+.social {
+    color: #fff;
+}
+
+.socBox {
+    margin-bottom: 10px;
+    padding: 20px 30px;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.socBox span {
+    font-weight: 500;
+}
+
+.socBox:nth-child(2) {
+    background-color: #3b5998;
+}
+
+.socBox:nth-child(3) {
+    background-color: #bd081c;
+}
+
+.socBox:nth-child(4) {
+    background-color: #1da1f2;
+}
+
+.socBox:nth-child(5) {
+    background-color: #c32aa3;
+}
+
+.socBox:nth-child(1) {
+    background-color: #ff0000;
+}

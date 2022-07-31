@@ -1,9 +1,18 @@
 import React from "react";
+import Heading from "../heading/Heading";
+import Social from "../social/Social";
+import Subscribe from "../subscribe/Subscribe";
 
-import style from "./sideContent.module.css";
+import style from "./SideContent.module.css";
 
-const sideContent = () => {
-  return <div>sideContent</div>;
+const SideContent = () => {
+  return (
+    <div>
+      <Heading title="Social " />
+      <Social />
+      <Subscribe />
+    </div>
+  );
 };
 
-export default sideContent;
+export default SideContent;

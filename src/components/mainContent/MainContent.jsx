@@ -3,6 +3,7 @@ import Life from "../life/Life";
 import Music from "../music/Music";
 import Popular from "../popular/Popular";
 import Posts from "../posts/Posts";
+import SideContent from "../sideContent/SideContent";
 
 import style from "./MainContent.module.css";
 
@@ -15,7 +16,9 @@ const MainContent = () => {
         <Life />
         <Music />
       </section>
-      <section className={style.side__content}></section>
+      <section className={style.side__content}>
+        <SideContent />
+      </section>
     </div>
   );
 };
