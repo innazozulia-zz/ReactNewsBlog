@@ -1,0 +1,28 @@
+.cover {
+    width: 330px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.category span {
+    background: #6a8f3f;
+    padding: 4px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.icon {
+    color: #6a8f3f;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}

@@ -7,6 +7,10 @@
     display: flex;
 }
 
+a {
+    color: white;
+}
+
 .navigation {
     background: #000;
     padding: 10px;
