@@ -4,6 +4,9 @@
     object-fit: cover;
 }
 
+.items {
+    margin-bottom: 30px;
+}
 
 .category span {
     background: #6a8f3f;

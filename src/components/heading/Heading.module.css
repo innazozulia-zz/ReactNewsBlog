@@ -3,7 +3,7 @@
 }
 
 h6 {
-    font-weight: 400;
+    font-weight: 600;
     color: #fff;
     background: red;
     height: 35px;
@@ -11,4 +11,5 @@ h6 {
     align-items: center;
     display: flex;
     justify-content: center;
+
 }

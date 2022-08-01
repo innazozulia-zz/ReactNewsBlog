@@ -15,6 +15,12 @@ h1 {
     padding: 15px;
 }
 
+.img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
 .category span {
     background: #6a8f3f;
     padding: 4px;
