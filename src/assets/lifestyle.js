@@ -16,7 +16,7 @@ const lifestyle = [
   {
     id: 3,
     catgeory: "fashion",
-    title: "Learn How To Nail Your Favorite Look",
+    title: "How To Nail Your Favorite Look",
     date: "24. June 2022",
     cover: "img/lifestyle/lifestyle-1.jpg",
   },

@@ -389,21 +389,21 @@ export const post = [
   },
 ];
 
-export const tpost = [
+export const posts = [
   {
     id: 1,
-    title: "US Promises to give Intel aid to locate the soldiers",
-    cover: "../images/tpost/tpost.webp",
+    title: "Coronavirus Updates",
+    cover: "img/popularPosts/post-1.jpg",
   },
   {
     id: 2,
-    title: "Renewable energy dead as industry waits for Policy",
-    cover: "../images/tpost/tpost2.jpg",
+    title: "Protests in Colombia and Berlin",
+    cover: "img/popularPosts/post-2.jpg",
   },
   {
     id: 3,
-    title: "Mount Etna erupts fashion in nice looking pictures",
-    cover: "../images/tpost/tpost3.jpg",
+    title: "The Story Behind Rihanna’s Face Tattoo",
+    cover: "img/popularPosts/post-3.jpg",
   },
 ];
 export const gallery = [

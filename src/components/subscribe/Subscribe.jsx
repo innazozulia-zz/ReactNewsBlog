@@ -3,6 +3,8 @@ import React from "react";
 import Heading from "../heading/Heading";
 import { BiMailSend } from "react-icons/bi";
 import style from "./Subscribe.module.css";
+import PPosts from "../popularPosts/PopularPosts";
+
 // import Slider from "react-slick";
 // import Heading from "../../../common/heading/Heading";
 // import { gallery } from "../../../../dummyData";
@@ -40,16 +42,17 @@ const Subscribe = () => {
         <form action="#">
           <input type="email" placeholder="Email Address..." />
           <button>
-            <BiMailSend /> SUBMIT
+            <BiMailSend className={style.icons} /> SUBMIT
           </button>
         </form>
       </section>
 
       <section className={style.banner}>
         <img src="img/banner.jpg" alt="banner" />
+        <img src="img/logo.png" alt="logo" />
       </section>
 
-      {/* <Tpost /> */}
+      <PPosts />
       {/* 
       <section className="catgorys">
         <Heading title="Catgeorys" />

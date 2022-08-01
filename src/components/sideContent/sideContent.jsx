@@ -3,7 +3,8 @@ import Heading from "../heading/Heading";
 import Social from "../social/Social";
 import Subscribe from "../subscribe/Subscribe";
 
-import style from "./SideContent.module.css";
+// delete
+// import style from "./SideContent.module.css";
 
 const SideContent = () => {
   return (
