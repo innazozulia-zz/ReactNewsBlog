@@ -8,10 +8,10 @@ const PPosts = () => {
   return (
     <>
       <section className={style.popularPosts}>
-        <Heading title="Popular posts" />
+        <Heading title="Popular posts of all time" />
         {posts.map((val) => {
           return (
-            <div className={style.box}>
+            <div key={val.id} className={style.box}>
               <div className={style.img}>
                 <img
                   className={style.cover}

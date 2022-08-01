@@ -33,7 +33,7 @@ const Life = () => {
           <Slider {...settings}>
             {lifestyle.map((val) => {
               return (
-                <div className={style.items}>
+                <div key={val.id} className={style.items}>
                   <div className={style.box}>
                     <div className={style.images}>
                       <div className={style.img}>
@@ -43,8 +43,8 @@ const Life = () => {
                           alt="lifestyle"
                         />
                       </div>
-                      <div class={style.category}>
-                        <span>{val.catgeory}</span>
+                      <div className={style.category}>
+                        <span>{val.category}</span>
                       </div>
                     </div>
                     <div className={style.text}>
@@ -52,7 +52,6 @@ const Life = () => {
                         {val.title.slice(0, 40)}...
                       </h1>
                       <div className={style.date}>
-                        {" "}
                         <BsCalendarWeek className={style.icon} />
                         {val.date}
                       </div>

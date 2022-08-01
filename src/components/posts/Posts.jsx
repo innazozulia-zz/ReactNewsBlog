@@ -25,7 +25,7 @@ const Posts = () => {
           <Slider {...settings}>
             {post.map((val) => {
               return (
-                <div className={style.items}>
+                <div key={val.id} className={style.items}>
                   <div className={style.box}>
                     <div className={style.img}>
                       <div className={style.image}>
@@ -35,7 +35,7 @@ const Posts = () => {
                           alt="popular posts"
                         />
                       </div>
-                      <div class={style.category}>
+                      <div className={style.category}>
                         <span>{val.catgeory}</span>
                       </div>
                     </div>

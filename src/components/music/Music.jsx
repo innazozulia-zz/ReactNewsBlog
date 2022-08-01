@@ -29,7 +29,7 @@ const Music = () => {
         <Slider {...settings}>
           {music.map((el) => {
             return (
-              <div className={style.items}>
+              <div key={el.id} className={style.items}>
                 <div className={style.box}>
                   <div className={style.images__row}>
                     <img className={style.img} src={el.cover} alt="popular" />
