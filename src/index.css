@@ -16,3 +16,8 @@ code {
   text-decoration: none;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}

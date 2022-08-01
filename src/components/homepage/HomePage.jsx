@@ -1,5 +1,6 @@
 import React from "react";
 import Main from "../main/Main";
+import Discover from "../discover/Discover";
 import MainContent from "../mainContent/MainContent";
 
 const HomePage = () => {
@@ -7,6 +8,8 @@ const HomePage = () => {
     <>
       <Main />
       <MainContent />
+      {/* fix */}
+      {/* <Discover /> */}
     </>
   );
 };
