@@ -1,5 +1,5 @@
 import React from "react";
-
+import { gallery } from "../../assets/db";
 import Heading from "../heading/Heading";
 import { BiMailSend } from "react-icons/bi";
 import style from "./Subscribe.module.css";
@@ -7,21 +7,16 @@ import PPosts from "../popularPosts/PopularPosts";
 
 import Slider from "react-slick";
 
-// import { gallery } from "../../../../dummyData";
-// import Tpost from "../Tpost/Tpost";
 // import SocialMedia from "../social/SocialMedia";
 
-// const allCat = [...new Set(popular.map((curEle) => curEle.catgeory))]
-// console.log(allCat)
-
 const Subscribe = () => {
-  //   const settings = {
-  //     dots: false,
-  //     infinite: true,
-  //     speed: 500,
-  //     slidesToShow: 1,
-  //     slidesToScroll: 1,
-  //   };
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
 
   const category = [
     "technology",
@@ -56,25 +51,27 @@ const Subscribe = () => {
         {/* <div className="items">{allCat}</div> */}
         {category.map((val) => {
           return (
-            <div key={val.id} className={style.category}>
-              <span>{val}</span>
+            <div className={style.box}>
+              <div className={style.category}>
+                <span>{val}</span>
+              </div>
             </div>
           );
         })}
       </section>
 
-      {/* <section className="gallery">
+      <section className="gallery">
         <Heading title="Gallery" />
         <Slider {...settings}>
           {gallery.map((val) => {
             return (
-              <div key={val.id}className="img">
-                <img src={val.cover} alt="" />
+              <div key={val.id} className={style.img}>
+                <img className={style.cover} src={val.cover} alt="culture" />
               </div>
             );
           })}
         </Slider>
-      </section> */}
+      </section>
     </>
   );
 };

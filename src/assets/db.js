@@ -407,20 +407,22 @@ export const posts = [
   },
 ];
 export const gallery = [
+  { id: 1, cover: "img/gallery/img-1.jpg" },
   {
-    cover: "../images/gallery/g1.jpg",
+    id: 2,
+    cover: "img/gallery/img-2.jpg",
   },
   {
-    cover: "../images/gallery/g2.jpg",
+    id: 3,
+    cover: "img/gallery/img-3.jpg",
   },
   {
-    cover: "../images/gallery/g3.jpg",
+    id: 4,
+    cover: "img/gallery/img-4.jpg",
   },
   {
-    cover: "../images/gallery/g4.jpg",
-  },
-  {
-    cover: "../images/gallery/g5.jpg",
+    id: 5,
+    cover: "img/gallery/img-5.jpg",
   },
 ];
 export const discover = [

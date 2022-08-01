@@ -40,3 +40,30 @@ button {
     margin-right: 10px;
 
 }
+
+.img {
+    margin-bottom: 10px;
+}
+
+.cover {
+    width: 320px;
+    height: 250px;
+    object-fit: cover;
+    /* overflow: hidden; */
+}
+
+.box {
+    margin: 25px 0;
+    background: red;
+}
+
+.category {
+    padding: 20px 10px;
+}
+
+.category span {
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 12px 10px;
+    color: white;
+}
