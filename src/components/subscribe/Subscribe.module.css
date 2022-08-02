@@ -49,6 +49,7 @@ button {
     width: 320px;
     height: 250px;
     object-fit: cover;
+    margin: auto;
     /* overflow: hidden; */
 }
 
@@ -67,3 +68,9 @@ button {
     padding: 12px 10px;
     color: white;
 }
+
+/* 
+.gallery {
+    display: flex;
+    margin: auto;
+} */

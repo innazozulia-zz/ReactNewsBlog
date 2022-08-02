@@ -33,3 +33,15 @@ h1 {
     font-size: 18px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1450px) {
+    .cover {
+        width: 430px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .cover {
+        width: 100%;
+    }
+}

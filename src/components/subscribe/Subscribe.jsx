@@ -2,9 +2,10 @@ import React from "react";
 import { gallery } from "../../assets/db";
 import Heading from "../heading/Heading";
 import { BiMailSend } from "react-icons/bi";
-import style from "./Subscribe.module.css";
 import PPosts from "../popularPosts/PopularPosts";
 import Slider from "react-slick";
+
+import style from "./Subscribe.module.css";
 
 const Subscribe = () => {
   const settings = {
@@ -56,7 +57,7 @@ const Subscribe = () => {
         })}
       </section>
 
-      <section className="gallery">
+      <section className={style.gallery}>
         <Heading title="Gallery" />
         <Slider {...settings}>
           {gallery.map((val) => {

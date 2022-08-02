@@ -9,8 +9,8 @@ const HomePage = () => {
     <>
       <Main />
       <MainContent />
-      <Discover />
-      <Footer />
+      {/* <Discover /> */}
+      {/* <Footer /> */}
     </>
   );
 };

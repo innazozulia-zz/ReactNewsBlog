@@ -28,7 +28,9 @@ const Footer = () => {
               src="img/footer/item-1.jpg"
               alt="movies for you"
             />
-            <p>Google To Boost Android Security In Few Days</p>
+            <p className={style.description}>
+              Faucibus vitae aliquet nec ullamcorper sit amet risus.
+            </p>
           </div>
           <div className={style.item}>
             <img
@@ -36,7 +38,9 @@ const Footer = () => {
               src="img/footer/item-2.jpg"
               alt="movies for you"
             />
-            <p>Cespedes play the winning Baseball Game</p>
+            <p className={style.description}>
+              Morbi tincidunt augue interdum velit euismod in pellentesque.
+            </p>
           </div>
         </div>
         <div className={style.box}>
@@ -47,15 +51,19 @@ const Footer = () => {
               src="img/footer/item-3.jpg"
               alt="music for you"
             />
-            <p>US Promises to give Intel aid to locate the soldiers</p>
+            <p className={style.description}>
+              Faucibus vitae aliquet nec ullamcorper sit amet risus.
+            </p>
           </div>
-          <div className="item">
+          <div className={style.item}>
             <img
               className={style.cover}
               src="img/footer/item-4.jpg"
               alt="music for you"
             />
-            <p>Renewable energy dead as industry waits for Policy</p>
+            <p className={style.description}>
+              Morbi tincidunt augue interdum velit euismod in pellentesque.
+            </p>
           </div>
         </div>
         <div className={style.box}>

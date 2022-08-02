@@ -17,9 +17,16 @@ const Life = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 800,
+        breakpoint: 1450,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1050,
+        settings: {
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
