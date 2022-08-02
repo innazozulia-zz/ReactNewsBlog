@@ -4,10 +4,7 @@ import Heading from "../heading/Heading";
 import { BiMailSend } from "react-icons/bi";
 import style from "./Subscribe.module.css";
 import PPosts from "../popularPosts/PopularPosts";
-
 import Slider from "react-slick";
-
-// import SocialMedia from "../social/SocialMedia";
 
 const Subscribe = () => {
   const settings = {
@@ -48,7 +45,6 @@ const Subscribe = () => {
       <PPosts />
       <section className={style.category}>
         <Heading title="Сategories" />
-        {/* <div className="items">{allCat}</div> */}
         {category.map((val) => {
           return (
             <div className={style.box}>

@@ -434,26 +434,26 @@ export const discover = [
   {
     id: 2,
     title: "sports",
-    cover: "img/discover/item-1.jpg",
+    cover: "img/discover/item-2.jpg",
   },
   {
     id: 3,
     title: "humour",
-    cover: "img/discover/item-1.jpg",
+    cover: "img/discover/item-3.jpg",
   },
   {
     id: 4,
     title: "gadgets",
-    cover: "img/discover/item-1.jpg",
+    cover: "img/discover/item-4.jpg",
   },
   {
     id: 5,
     title: "movies",
-    cover: "img/discover/item-1.jpg",
+    cover: "img/discover/item-5.jpg",
   },
   {
     id: 6,
     title: "nitendo",
-    cover: "img/discover/item-1.jpg",
+    cover: "img/discover/item-6.jpg",
   },
 ];

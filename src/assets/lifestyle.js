@@ -2,14 +2,14 @@ const lifestyle = [
   {
     id: 1,
     category: "world",
-    title: "Mustang Teases With A New Promo",
+    title: "Mustang Teases With A New",
     date: "01. June 2022",
     cover: "img/lifestyle/lifestyle-3.jpg",
   },
   {
     id: 2,
     category: "sport",
-    title: "Surfs Up – Places For Killer Waves",
+    title: "Surfs Up – Places For Killer ",
     date: "15. July 2022",
     cover: "img/lifestyle/lifestyle-2.jpg",
   },

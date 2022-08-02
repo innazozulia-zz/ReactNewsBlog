@@ -11,14 +11,14 @@ import style from "./MainContent.module.css";
 const MainContent = () => {
   return (
     <div className={style.container}>
-      <section className={style.main__content}>
+      <section className={style.main}>
         <Popular />
         <Posts />
         <Life />
         <Music />
         <Sport />
       </section>
-      <section className={style.side__content}>
+      <section className={style.side}>
         <SideContent />
       </section>
     </div>

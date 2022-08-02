@@ -1,6 +1,7 @@
 import React from "react";
-import Main from "../main/Main";
 import Discover from "../discover/Discover";
+import Footer from "../footer/Footer";
+import Main from "../main/Main";
 import MainContent from "../mainContent/MainContent";
 
 const HomePage = () => {
@@ -8,8 +9,8 @@ const HomePage = () => {
     <>
       <Main />
       <MainContent />
-      {/* fix */}
-      {/* <Discover /> */}
+      <Discover />
+      <Footer />
     </>
   );
 };
