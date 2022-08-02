@@ -15,9 +15,16 @@ const Sport = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 800,
+        breakpoint: 1340,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 999,
+        settings: {
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -44,11 +51,6 @@ const Sport = () => {
                       <div className={style.category}>
                         <span>{val.category}</span>
                       </div>
-                      {/* <div className={style.text}>
-                        <h1 className={style.title}>
-                          {val.title.slice(0, 35)}...
-                        </h1>
-                      </div> */}
                     </div>
                   </div>
                 </div>

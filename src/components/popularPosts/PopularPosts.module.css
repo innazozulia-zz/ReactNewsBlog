@@ -1,8 +1,5 @@
 .cover {
-    /* width: 300px;
-    height: 200px;
-    object-fit: cover; */
-    max-width: 300px;
+    width: 300px;
     height: 200px;
     object-fit: cover;
     display: flex;
@@ -33,9 +30,15 @@ span {
 
 .category {
     padding: 10px;
-    /* background: red; */
 }
 
 .category span {
     background: red;
+}
+
+@media screen and (max-width: 1200px) {
+    .cover {
+        width: 100%;
+
+    }
 }

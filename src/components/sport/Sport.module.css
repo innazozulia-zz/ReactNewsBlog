@@ -23,3 +23,17 @@
 .text {
     padding: 0 10px;
 }
+
+@media screen and (max-width: 1340px) {
+    .cover {
+        width: 420px;
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .cover {
+        width: 100%;
+
+    }
+}
