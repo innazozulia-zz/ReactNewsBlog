@@ -7,16 +7,16 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: rgba(0, 0, 0, .3);
+    filter: invert(18%);
 }
 
 .user {
-    width: 70px;
-    height: 69px;
+    width: 50px;
+    height: 50px;
     border-radius: 40px;
     position: absolute;
-    top: 92px;
-    left: 141px;
+    top: 102px;
+    left: 161px;
 }
 
 .box {
@@ -56,7 +56,6 @@
     color: #fff;
     font-weight: 600;
     padding: 2px;
-    /* background: #9fb1bc; */
     background: #698f3f;
     text-transform: uppercase;
 
@@ -77,8 +76,14 @@
 
 }
 
+.date {
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .author {
     color: #fff;
+    font-weight: 600;
     font-size: 15px;
     display: flex;
     flex-direction: column;

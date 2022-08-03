@@ -16,7 +16,7 @@ const CartMain = ({
         <div className={style.author}>
           <span>{authorName}</span>
           <img className={style.user} src={authorImg} alt="author" />
-          <span>{time}</span>
+          <span className={style.date}>{time}</span>
         </div>
       </div>
     </div>
