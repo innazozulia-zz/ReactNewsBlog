@@ -6,6 +6,7 @@ import style from "./Main.module.css";
 
 const Main = () => {
   const [items, setItems] = React.useState(mainSection);
+  console.log(setItems);
   return (
     <div>
       <section className={style.main}>

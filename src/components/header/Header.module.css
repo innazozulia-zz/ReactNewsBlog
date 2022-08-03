@@ -33,7 +33,7 @@ a:hover {
     font-size: 25px;
     color: #fff;
     background: none;
-    padding: 5pz;
+    padding: 5px;
 }
 
 .close {
@@ -55,12 +55,12 @@ a:hover {
     .btn__icon {
         display: block;
         position: relative;
-        top: 34px;
+        top: -4px;
     }
 
     .close {
         position: absolute;
-        bottom: 222px;
+        bottom: 152px;
         right: 6px;
 
     }
@@ -71,7 +71,7 @@ a:hover {
         top: 28%;
         width: 100%;
         z-index: 5;
-        padding: 40px;
+        padding: 6px;
         /* height: 45vh; */
 
     }
