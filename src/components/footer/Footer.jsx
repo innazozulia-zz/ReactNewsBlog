@@ -28,9 +28,7 @@ const Footer = () => {
               src="img/footer/item-1.jpg"
               alt="movies for you"
             />
-            <p className={style.description}>
-              Faucibus vitae aliquet nec ullamcorper sit amet risus.
-            </p>
+            <p className={style.description}>Faucibus vitae aliquet nec.</p>
           </div>
           <div className={style.item}>
             <img
@@ -38,9 +36,7 @@ const Footer = () => {
               src="img/footer/item-2.jpg"
               alt="movies for you"
             />
-            <p className={style.description}>
-              Morbi tincidunt augue interdum velit euismod in pellentesque.
-            </p>
+            <p className={style.description}>Morbi tincidunt augue interdum.</p>
           </div>
         </div>
         <div className={style.box}>
@@ -51,9 +47,7 @@ const Footer = () => {
               src="img/footer/item-3.jpg"
               alt="music for you"
             />
-            <p className={style.description}>
-              Faucibus vitae aliquet nec ullamcorper sit amet risus.
-            </p>
+            <p className={style.description}>Faucibus sit amet risus.</p>
           </div>
           <div className={style.item}>
             <img
@@ -61,9 +55,7 @@ const Footer = () => {
               src="img/footer/item-4.jpg"
               alt="music for you"
             />
-            <p className={style.description}>
-              Morbi tincidunt augue interdum velit euismod in pellentesque.
-            </p>
+            <p className={style.description}>Morbi euismod in pellentesque.</p>
           </div>
         </div>
         <div className={style.box}>

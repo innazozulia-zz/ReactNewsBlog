@@ -10,7 +10,7 @@ const HomePage = () => {
       <Main />
       <MainContent />
       {/* <Discover /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
