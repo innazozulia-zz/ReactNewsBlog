@@ -4,6 +4,7 @@ import Heading from "../heading/Heading";
 import { BiMailSend } from "react-icons/bi";
 import PPosts from "../popularPosts/PopularPosts";
 import Slider from "react-slick";
+// import { category } from "../../assets/db";
 
 import style from "./Subscribe.module.css";
 
@@ -46,11 +47,11 @@ const Subscribe = () => {
       <PPosts />
       <section className={style.category}>
         <Heading title="Сategories" />
-        {category.map((val) => {
+        {category.map((el) => {
           return (
-            <div className={style.box}>
+            <div key={el.id} className={style.box}>
               <div className={style.category}>
-                <span>{val}</span>
+                <span>{el}</span>
               </div>
             </div>
           );

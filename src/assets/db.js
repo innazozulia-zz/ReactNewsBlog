@@ -457,3 +457,41 @@ export const discover = [
     cover: "img/discover/item-6.jpg",
   },
 ];
+export const mainCulture = [
+  {
+    id: 1,
+    cover: "img/culture/item-1.jpg",
+    category: "Travel",
+    title: "Ut enim ad minim veniam",
+    authorName: "John Black",
+    authorImg: "img/culture/user/item-4.jpg",
+    time: " 28 June - 2022",
+  },
+  {
+    id: 2,
+    cover: "img/culture/item-2.jpg",
+    category: "Travel",
+    title: "Excepteur sint",
+    authorName: "Alice Smith",
+    authorImg: "img/culture/user/item-2.jpg",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 3,
+    cover: "img/culture/item-3.jpg",
+    category: "Travel",
+    title: "Duis aute irure dolor",
+    authorName: "Danny McDegal",
+    authorImg: "img/culture/user/item-3.jpg",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 4,
+    cover: "img/culture/item-4.jpg",
+    category: "Travel",
+    title: "Ut enim ad minim",
+    authorName: "Jenny Grenither",
+    authorImg: "img/culture/user/item-1.jpg",
+    time: "14 July - 2022",
+  },
+];
