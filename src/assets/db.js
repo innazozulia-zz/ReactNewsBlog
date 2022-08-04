@@ -472,3 +472,65 @@ export const mainCultureFooter = [
     title: "Ut enim ad minim",
   },
 ];
+export const mainTechnology = [
+  {
+    id: 1,
+    cover: "img/tech/item-1.jpg",
+    category: "How to choose a programming language",
+    title: "Ut enim ad minim veniam",
+    authorName: "John Black",
+    time: " 28 June - 2022",
+  },
+  {
+    id: 2,
+    cover: "img/tech/item-2.jpg",
+    category: "Artificial Intelligence",
+    title: "Excepteur sint",
+    authorName: "Alice Smith",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 3,
+    cover: "img/tech/item-3.jpg",
+    category: "Programming for kidsl",
+    title: "Duis aute irure dolor",
+    authorName: "Danny McDegal",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 4,
+    cover: "img/tech/item-4.jpg",
+    category: "Social networks",
+    title: "Ut enim ad minim",
+    authorName: "Jenny Grenither",
+    time: "14 July - 2022",
+  },
+];
+export const mainTechnologyFooter = [
+  {
+    id: 1,
+    cover: "img/techFooter/item-1.jpg",
+    category: "Smart Home",
+    title: "Ut enim ad minim veniam",
+  },
+  {
+    id: 2,
+    cover: "img/techFooter/item-2.jpg",
+    category: "How to be a developer",
+
+    title:
+      "Viverra justo nec ultrices dui sapien eget mi proin. Ut placerat orci nulla pellentesque dignissim enim sit. ",
+  },
+  {
+    id: 3,
+    cover: "img/techFooter/item-3.jpg",
+    category: "Top new gadgets for you",
+    title: "Duis aute irure dolor",
+  },
+  {
+    id: 4,
+    cover: "img/techFooter/item-4.jpg",
+    category: "Worm Hole",
+    title: "Ut enim ad minim",
+  },
+];

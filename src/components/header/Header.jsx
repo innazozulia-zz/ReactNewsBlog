@@ -24,7 +24,7 @@ const Header = () => {
               <Link to="/culture">Culture</Link>
             </li>
             <li className={style.nav__item}>
-              <Link to="/Technology">Technology</Link>
+              <Link to="/technology">Technology</Link>
             </li>
             <li className={style.nav__item}>
               <Link to="/politics">Politics</Link>

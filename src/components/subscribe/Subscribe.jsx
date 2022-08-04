@@ -4,7 +4,6 @@ import Heading from "../heading/Heading";
 import { BiMailSend } from "react-icons/bi";
 import PPosts from "../popularPosts/PopularPosts";
 import Slider from "react-slick";
-// import { category } from "../../assets/db";
 
 import style from "./Subscribe.module.css";
 
