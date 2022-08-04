@@ -1,5 +1,5 @@
 import React from "react";
-import Cart from "../cartMain/Cart";
+import Cart from "./cartMain/Cart";
 import { mainCulture } from "../../../assets/db";
 
 import style from "./Main.module.css";

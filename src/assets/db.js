@@ -446,3 +446,29 @@ export const mainCulture = [
     time: "14 July - 2022",
   },
 ];
+export const mainCultureFooter = [
+  {
+    id: 1,
+    cover: "img/cultureFooter/item-1.jpg",
+    category: "Travel",
+    title: "Ut enim ad minim veniam",
+  },
+  {
+    id: 2,
+    cover: "img/cultureFooter/item-2.jpg",
+    category: "Travel",
+    title: "Excepteur sint",
+  },
+  {
+    id: 3,
+    cover: "img/cultureFooter/item-3.jpg",
+    category: "Travel",
+    title: "Duis aute irure dolor",
+  },
+  {
+    id: 4,
+    cover: "img/cultureFooter/item-4.jpg",
+    category: "Travel",
+    title: "Ut enim ad minim",
+  },
+];
