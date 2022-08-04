@@ -29,7 +29,7 @@ const Subscribe = () => {
   ];
   return (
     <>
-      <Heading title="Subscribe" />
+      <Heading title="Join us" />
       <section className={style.subscribe}>
         <h1>Subscribe to our New Stories</h1>
         <form action="#">
