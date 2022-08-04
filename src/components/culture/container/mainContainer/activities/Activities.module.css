@@ -1,0 +1,51 @@
+/* .category span {
+    background: #6a8f3f;
+    padding: 4px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+} */
+.icon {
+    font-size: 24px;
+    color: red;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.box {
+    box-shadow: 0 15px 10px -10px rgb(0 0 0 / 20%);
+    margin-bottom: 17px;
+    padding-bottom: 27px;
+    position: relative;
+}
+
+.cover {
+    width: 330px;
+    height: 340px;
+    object-fit: cover;
+}
+
+.text {
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 1340px) {
+    .cover {
+        width: 420px;
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .cover {
+        width: 100%;
+
+    }
+}

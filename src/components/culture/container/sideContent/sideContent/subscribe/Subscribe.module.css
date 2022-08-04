@@ -28,8 +28,22 @@ button {
 
 }
 
-icons {
+.icons {
     font-size: 24px;
     margin-right: 10px;
 
+}
+
+.banner {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner span {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    /* margin: 10px 0; */
 }

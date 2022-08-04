@@ -39,5 +39,26 @@ const articles = [
     descr:
       "Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Porta non pulvinar neque laoreet suspendisse. Varius quam quisque id diam.Ultrices dui sapien eget mi proin sed libero enim sed. ",
   },
+  {
+    id: 5,
+    category: "France",
+    title: " Sed augue lacus viverra vitae congue eu. ",
+    date: "24. June 2022",
+    cover: "img/article/item-5.jpg",
+    comments: "23",
+    descr:
+      "Nunc non blandit massa enim nec dui nunc mattis enim. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. ",
+  },
+  {
+    id: 6,
+    category: "UK",
+    title:
+      "Adipiscing elit duis tristique sollicitudin nibh sit. Ac felis donec et odio pellentesque. ",
+    date: "13. May 2022",
+    cover: "img/article/item-6.jpg",
+    comments: "7",
+    descr:
+      "Enim praesent elementum facilisis leo. Enim facilisis gravida neque convallis a cras semper auctor. Sed augue lacus viverra vitae congue eu. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus.",
+  },
 ];
 export default articles;

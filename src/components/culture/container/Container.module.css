@@ -12,3 +12,17 @@
 .side {
     width: 23%;
 }
+
+@media screen and (max-width: 1222px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .side {
+        width: 100%;
+    }
+}

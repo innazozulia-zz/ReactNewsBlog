@@ -16,6 +16,13 @@ const Subscribe = () => {
           </button>
         </form>
       </section>
+      <section className={style.banner}>
+        <img src="img/banner.jpg" alt="banner" />
+        <img src="img/logo.png" alt="logo" />
+        <Heading title="Listen to music" />
+        {/* <span>Listen to music while traveling</span> */}
+        <img src="img/add.png" alt="add" />
+      </section>
     </>
   );
 };
