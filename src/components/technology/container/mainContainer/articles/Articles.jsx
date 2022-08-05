@@ -2,7 +2,6 @@ import React from "react";
 import { BsCalendarWeek } from "react-icons/bs";
 import { FaComments } from "react-icons/fa";
 import { MdShare } from "react-icons/md";
-// import techArticles from "../../../../../assets/techArticle";
 import techArticles from "../../../../../assets/techArticles";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
