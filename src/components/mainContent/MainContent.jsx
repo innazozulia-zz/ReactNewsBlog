@@ -3,8 +3,9 @@ import Life from "../life/Life";
 import Music from "../music/Music";
 import Popular from "../popular/Popular";
 import Posts from "../posts/Posts";
-import SideContent from "../sideContent/SideContent";
+// import SideContent from "../sideContent/SideContent";
 import Sport from "../sport/Sport";
+import SideContent from "../sideContent/SideContent";
 
 import style from "./MainContent.module.css";
 
