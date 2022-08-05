@@ -534,3 +534,71 @@ export const mainTechnologyFooter = [
     title: "Ut enim ad minim",
   },
 ];
+export const mainPolitics = [
+  {
+    id: 1,
+    cover: "img/mainPolitics/item-1.jpg",
+    category: "How to choose a programming language",
+    title: "Ut enim ad minim veniam",
+    authorName: "John Black",
+    time: " 28 June - 2022",
+  },
+  {
+    id: 2,
+    cover: "img/mainPolitics/item-2.jpg",
+    category: "Artificial Intelligence",
+    title: "Excepteur sint",
+    authorName: "Alice Smith",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 3,
+    cover: "img/mainPolitics/item-3.jpg",
+    category: "Programming for kidsl",
+    title: "Duis aute irure dolor",
+    authorName: "Danny McDegal",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 4,
+    cover: "img/mainPolitics/item-4.jpg",
+    category: "Social networks",
+    title: "Ut enim ad minim",
+    authorName: "Jenny Grenither",
+    time: "14 July - 2022",
+  },
+];
+export const politicFooter = [
+  {
+    id: 1,
+    cover: "img/politicFooter/item-1.jpg",
+    category: "How to choose a programming language",
+    title: "Ut enim ad minim veniam",
+    authorName: "John Black",
+    time: " 28 June - 2022",
+  },
+  {
+    id: 2,
+    cover: "img/politicFooter/item-2.jpg",
+    category: "Artificial Intelligence",
+    title: "Excepteur sint",
+    authorName: "Alice Smith",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 3,
+    cover: "img/politicFooter/item-3.jpg",
+    category: "Programming for kidsl",
+    title: "Duis aute irure dolor",
+    authorName: "Danny McDegal",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 4,
+    cover: "img/politicFooter/item-4.jpg",
+    category: "Social networks",
+    title: "Ut enim ad minim",
+    authorName: "Jenny Grenither",
+    time: "14 July - 2022",
+  },
+];

@@ -7,25 +7,25 @@ const Advantages = () => {
     <>
       <section className={style.advantages}>
         <div className={style.box}>
-          <span>Ease of Access to Information</span>
+          <span>Government</span>
         </div>
         <div className={style.box}>
-          <span>Saves Time</span>
+          <span>Risk & Security</span>
         </div>
         <div className={style.box}>
-          <span>Ease of Mobility</span>
+          <span>Institutions</span>
         </div>
         <div className={style.box}>
-          <span>Better Communication Means</span>
+          <span>Migration</span>
         </div>
         <div className={style.box}>
-          <span>Innovation In Many Fields</span>
+          <span>Membership</span>
         </div>
         <div className={style.box}>
-          <span>Improved Banking</span>
+          <span>Citizenship</span>
         </div>
         <div className={style.box}>
-          <span>Better Learning Techniques</span>
+          <span>Justice and Democracy</span>
         </div>
       </section>
     </>
