@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import Heading from "../../../../heading/Heading";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import sportActivities from "../../../../../assets/sportActivities";
+import fashionActivities from "../../../../../assets/fashionActivities";
 import { AiFillRead } from "react-icons/ai";
 
 import style from "./Activities.module.css";
@@ -34,9 +34,9 @@ const Activities = () => {
   };
   return (
     <section className={style.activities}>
-      <Heading title="Sport activities" />
+      <Heading title="Culture activities" />
       <Slider {...settings}>
-        {sportActivities.map((val) => {
+        {fashionActivities.map((val) => {
           return (
             <div key={val.id} className={style.items}>
               <div className={style.box}>

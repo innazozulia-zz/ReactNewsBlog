@@ -538,7 +538,7 @@ export const mainPolitics = [
   {
     id: 1,
     cover: "img/mainPolitics/item-1.jpg",
-    category: "How to choose a programming language",
+    category: "Nytr ueadreuer nte nu fytmi ben gkifoge",
     title: "Ut enim ad minim veniam",
     authorName: "John Black",
     time: " 28 June - 2022",
@@ -546,7 +546,7 @@ export const mainPolitics = [
   {
     id: 2,
     cover: "img/mainPolitics/item-2.jpg",
-    category: "Artificial Intelligence",
+    category: "AVelianuks bufresu degase van de ximose",
     title: "Excepteur sint",
     authorName: "Alice Smith",
     time: " 26 July - 2022",
@@ -554,7 +554,7 @@ export const mainPolitics = [
   {
     id: 3,
     cover: "img/mainPolitics/item-3.jpg",
-    category: "Programming for kidsl",
+    category: "Pojecto tu beno refu darew",
     title: "Duis aute irure dolor",
     authorName: "Danny McDegal",
     time: " 26 July - 2022",
@@ -572,7 +572,7 @@ export const politicFooter = [
   {
     id: 1,
     cover: "img/politicFooter/item-1.jpg",
-    category: "How to choose a programming language",
+    category: "Houyt gty jue gredyre",
     title: "Ut enim ad minim veniam",
     authorName: "John Black",
     time: " 28 June - 2022",
@@ -580,7 +580,7 @@ export const politicFooter = [
   {
     id: 2,
     cover: "img/politicFooter/item-2.jpg",
-    category: "Artificial Intelligence",
+    category: "Atyre mi nute btygrep hut billesu un fer",
     title: "Excepteur sint",
     authorName: "Alice Smith",
     time: " 26 July - 2022",
@@ -588,7 +588,7 @@ export const politicFooter = [
   {
     id: 3,
     cover: "img/politicFooter/item-3.jpg",
-    category: "Programming for kidsl",
+    category: "Ytre burew bhte fryew kirryan de sure",
     title: "Duis aute irure dolor",
     authorName: "Danny McDegal",
     time: " 26 July - 2022",
@@ -596,7 +596,7 @@ export const politicFooter = [
   {
     id: 4,
     cover: "img/politicFooter/item-4.jpg",
-    category: "Social networks",
+    category: "Sijem de fun des ferywa",
     title: "Ut enim ad minim",
     authorName: "Jenny Grenither",
     time: "14 July - 2022",
@@ -644,7 +644,7 @@ export const sportFooter = [
   {
     id: 1,
     cover: "img/sportFooter/item-1.jpg",
-    category: "How to choose a programming language",
+    category: "Spyte hgsdt bhjdku trwvhgwce nb",
     title: "Ut enim ad minim veniam",
     authorName: "John Black",
     time: " 28 June - 2022",
@@ -652,7 +652,7 @@ export const sportFooter = [
   {
     id: 2,
     cover: "img/sportFooter/item-2.jpg",
-    category: "Artificial Intelligence",
+    category: "Artiue ftre njytwrdq bhduy",
     title: "Excepteur sint",
     authorName: "Alice Smith",
     time: " 26 July - 2022",
@@ -660,7 +660,7 @@ export const sportFooter = [
   {
     id: 3,
     cover: "img/sportFooter/item-3.jpg",
-    category: "Programming for kidsl",
+    category: "Proygf fus gyre nu rety",
     title: "Duis aute irure dolor",
     authorName: "Danny McDegal",
     time: " 26 July - 2022",
@@ -668,7 +668,79 @@ export const sportFooter = [
   {
     id: 4,
     cover: "img/sportFooter/item-4.jpg",
-    category: "Social networks",
+    category: "Sodrty ni fty faese",
+    title: "Ut enim ad minim",
+    authorName: "Jenny Grenither",
+    time: "14 July - 2022",
+  },
+];
+export const mainFashion = [
+  {
+    id: 1,
+    cover: "img/mainFashion/item-1.jpg",
+    category: "Fashion",
+    title: "Ut enim ad minim veniam",
+    authorName: "John Black",
+    authorImg: "img/culture/user/item-4.jpg",
+    time: " 28 June - 2022",
+  },
+  {
+    id: 2,
+    cover: "img/mainFashion/item-2.jpg",
+    category: "Fashion",
+    title: "Excepteur sint",
+    authorName: "Alice Smith",
+    authorImg: "img/culture/user/item-2.jpg",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 3,
+    cover: "img/mainFashion/item-3.jpg",
+    category: "Fashion",
+    title: "Duis aute irure dolor",
+    authorName: "Danny McDegal",
+    authorImg: "img/culture/user/item-3.jpg",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 4,
+    cover: "img/mainFashion/item-4.jpg",
+    category: "Fashion",
+    title: "Ut enim ad minim",
+    authorName: "Jenny Grenither",
+    authorImg: "img/culture/user/item-1.jpg",
+    time: "14 July - 2022",
+  },
+];
+export const fashionFooter = [
+  {
+    id: 1,
+    cover: "img/fashionFooter/item-2.jpg",
+    category: "Excepteur sint occaecat cupidatat non proident.",
+    title: "Ut enim ad minim veniam",
+    authorName: "John Black",
+    time: " 28 June - 2022",
+  },
+  {
+    id: 2,
+    cover: "img/fashionFooter/item-1.jpg",
+    category: "Ut enim ad minim veniam",
+    title: "Excepteur sint",
+    authorName: "Alice Smith",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 3,
+    cover: "img/fashionFooter/item-3.jpg",
+    category: "Excepteur sint occaecat cupidatat",
+    title: "Duis aute irure dolor",
+    authorName: "Danny McDegal",
+    time: " 26 July - 2022",
+  },
+  {
+    id: 4,
+    cover: "img/fashionFooter/item-4.jpg",
+    category: "Snisi ut aliquip ex ea commodo conseq",
     title: "Ut enim ad minim",
     authorName: "Jenny Grenither",
     time: "14 July - 2022",

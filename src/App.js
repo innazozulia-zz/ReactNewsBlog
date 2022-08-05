@@ -6,6 +6,7 @@ import HomePage from "./components/homepage/HomePage";
 import Politics from "./components/politics/Politics";
 import Sport from "./components/sportPage/Sport.jsx";
 import Technology from "./components/technology/Technology";
+import Fashion from "./components/fashionPage/Fashion";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/technology" element={<Technology />} />
         <Route path="/politics" element={<Politics />} />
         <Route path="/sport" element={<Sport />} />
+        <Route path="/fashion" element={<Fashion />} />
       </Routes>
     </>
   );
