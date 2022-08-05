@@ -3,8 +3,7 @@ import Slider from "react-slick";
 import Heading from "../../../../heading/Heading";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import activities from "../../../../../assets/activities";
-import { GiPhotoCamera } from "react-icons/gi";
+import techActivities from "../../../../../assets/techActivities";
 
 import style from "./Activities.module.css";
 
@@ -36,7 +35,7 @@ const Activities = () => {
     <section className={style.activities}>
       <Heading title="Culture activities" />
       <Slider {...settings}>
-        {activities.map((val) => {
+        {techActivities.map((val) => {
           return (
             <div key={val.id} className={style.items}>
               <div className={style.box}>
@@ -45,14 +44,13 @@ const Activities = () => {
                     <img className={style.cover} src={val.cover} alt="sport" />
                   </div>
                   <div className={style.category}>
-                    <GiPhotoCamera className={style.icon} />
                     <div className={style.text}>{val.text}</div>
                   </div>
                 </div>
               </div>
             </div>
           );
-        })}{" "}
+        })}
       </Slider>
     </section>
   );

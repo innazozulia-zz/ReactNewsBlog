@@ -8,7 +8,9 @@ import MainContainer from "./mainContainer/MainContainer";
 const Container = () => {
   return (
     <div className={style.container}>
-      <section className={style.main}>{/* <MainContainer /> */}</section>
+      <section className={style.main}>
+        <MainContainer />
+      </section>
       <section className={style.side}>
         <SideContent />
       </section>

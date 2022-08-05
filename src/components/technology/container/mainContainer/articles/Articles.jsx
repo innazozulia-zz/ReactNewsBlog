@@ -2,7 +2,8 @@ import React from "react";
 import { BsCalendarWeek } from "react-icons/bs";
 import { FaComments } from "react-icons/fa";
 import { MdShare } from "react-icons/md";
-import articles from "../../../../../assets/articles";
+// import techArticles from "../../../../../assets/techArticle";
+import techArticles from "../../../../../assets/techArticles";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -23,7 +24,7 @@ const Articles = () => {
   return (
     <section className={style.articles}>
       <Slider {...settings}>
-        {articles.map((el) => {
+        {techArticles.map((el) => {
           return (
             <div key={el.id} className={style.items}>
               <div className={style.box}>
