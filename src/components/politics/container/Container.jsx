@@ -2,8 +2,6 @@ import React from "react";
 import MainContainer from "../mainContainer/MainContainer";
 import SideContetn from "../sideContent/SideContent";
 
-// import SideContent from "./sideContent/sideContent/SideContetn";
-
 import style from "./Container.module.css";
 
 const Container = () => {

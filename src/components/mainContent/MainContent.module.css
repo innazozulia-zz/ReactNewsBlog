@@ -27,22 +27,3 @@
         width: 100%;
     }
 }
-
-/* 768px
-@media screen and(max-width: 1200px) {
-    .container {
-        /* display: flex !important;
-        flex-direction: column !important; */
-/* background: red;
-}
-
-.main {
-    width: 100%;
-    color: blue;
-}
-
-.side {
-    width: 100%;
-    color: green;
-}
-} */

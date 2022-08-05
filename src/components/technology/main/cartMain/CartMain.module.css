@@ -1,5 +1,4 @@
 .cover {
-    /* width: 200px; */
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -9,9 +8,6 @@
     z-index: -1;
     filter: invert(18%);
 }
-
-
-
 
 .box {
     position: relative;

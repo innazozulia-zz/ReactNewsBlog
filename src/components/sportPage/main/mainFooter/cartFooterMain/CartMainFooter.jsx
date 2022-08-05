@@ -2,9 +2,7 @@ import React from "react";
 
 import style from "./CartMainFooter.module.css";
 
-const CartMainFooter = ({
-  item: { id, cover, category, title, authorName, authorImg, time },
-}) => {
+const CartMainFooter = ({ item: { id, cover, category, title } }) => {
   return (
     <div className={style.box}>
       <div className={style.img}>

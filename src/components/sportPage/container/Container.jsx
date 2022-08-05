@@ -1,7 +1,5 @@
 import React from "react";
-// import SideContent from "../../sideContent/SideContent";
 import SideContent from "./sideContent/sideContent/SideContetn";
-
 import style from "./Container.module.css";
 import MainContainer from "./mainContainer/MainContainer";
 
