@@ -4,6 +4,7 @@ import Culture from "./components/culture/Culture";
 import Header from "./components/header/Header";
 import HomePage from "./components/homepage/HomePage";
 import Politics from "./components/politics/Politics";
+import Sport from "./components/sportPage/Sport.jsx";
 import Technology from "./components/technology/Technology";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/culture" element={<Culture />} />
         <Route path="/technology" element={<Technology />} />
         <Route path="/politics" element={<Politics />} />
+        <Route path="/sport" element={<Sport />} />
       </Routes>
     </>
   );
